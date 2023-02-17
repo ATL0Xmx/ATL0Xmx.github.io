@@ -1,0 +1,146 @@
+body {
+    background-image: url(fondo.jpg);
+    height: auto;
+    width: auto;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-wrap: wrap;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo 2', cursive;
+}
+.navigation{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    bottom: 20px;
+    width: 200px;
+    border-radius: 20px;
+    background: rgba(255, 212, 146, 0.2);
+    backdrop-filter: blur(20px);
+    border-left: solid 5px rgba(255, 255, 255, 0.5);
+    box-sizing: initial;
+    transition: width 0.5s;
+    box-shadow: 0 5PX 5px rgba(0, 0, 0, 0.2);
+}
+.navigation ul{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 5px;
+    padding-top: 40px;
+}
+.navigation ul li{
+    position: relative;
+    list-style: none;
+    width: 100%;
+}
+.navigation ul li a{
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+}
+.navigation ul li a .icon{
+    position: relative;
+    display: block;
+    min-width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+.navigation ul li a .icon ion-icon {
+    font-size: 1.5em;
+}
+.navigation ul li a .title{
+    position: relative;
+    display: block;
+    white-space: normal;
+}
+.contenido{
+    position: relative;
+    width: 600px;
+    height: auto;
+    border-radius: 30px;
+    background: rgba(255, 212, 146, 0.2);
+    backdrop-filter: blur(30px);
+    box-sizing: initial;
+    transition: width 0.5s;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin-top: 100px;
+    padding: 20px;
+    color: rgb(255, 255, 255)
+}
+#logos{
+    width: 400px;
+    height: 400px;
+    margin-top: 40px;
+    border-radius: 50%;
+    box-shadow: 10PX 10PX 10px rgba(0, 0, 0, 0.5);
+
+}
+.contenido-1{
+        float: right;
+        width: 900px;
+        height: auto;
+        border-radius: 30px;
+        background: rgba(255, 212, 146, 0.2);
+        backdrop-filter: blur(20px);
+        box-sizing: initial;
+        transition: width 0.5s;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        margin-top: 100px;
+        padding: 20px;
+        color: rgb(255, 255, 255);
+        align-self: right;
+        padding: 30px;
+        margin-right: 30px;
+    
+}
+#menu{
+    margin-top: 40px;
+    border-radius: 20px;
+    box-shadow: 10PX 10PX 10px rgba(0, 0, 0, 0.5);
+
+}
+#didi{
+    width: 400px;
+    height: 400px;
+    margin-top: 40px;
+    border-radius: 50%;
+    box-shadow: 10PX 10PX 10px rgba(0, 0, 0, 0.5);
+
+}
+#uber{
+    width: 400px;
+    height: 400px;
+    margin-top: 40px;
+    border-radius: 50%;
+    box-shadow: 10PX 10PX 10px rgba(0, 0, 0, 0.5);
+}
+#RAPPI{
+    width: 400px;
+    height: 400px;
+    margin-top: 40px;
+    border-radius: 50%;
+    box-shadow: 10PX 10PX 10px rgba(0, 0, 0, 0.5);
+}
+#qr{
+    width: 400px;
+    height: 400px;
+    margin-top: 40px;
+    border-radius: 50%;
+    box-shadow: 10PX 10PX 10px rgba(0, 0, 0, 0.5);
+}
+#mapa{
+    box-shadow: 10PX 10PX 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
